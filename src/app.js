@@ -1,7 +1,7 @@
 const fs = require('fs');
 
-const file = process.argv[2];
 const moveToFile = process.argv[3];
+const file = process.argv[2];
 
 try {
   fs.renameSync(file, moveToFile);
